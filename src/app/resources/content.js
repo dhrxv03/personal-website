@@ -9,7 +9,7 @@ const person = {
     role:      'Senior Year CSE Student',
     avatar:    '/images/avatar.jpg',
     location:  'Asia/Kolkata',        // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-    languages: ['English', 'Hindi', 'Gujarati', 'Marathi']  // optional: Leave the array empty if you don't want to display languages
+    languages: []  // optional: Leave the array empty if you don't want to display languages
 }
 
 const newsletter = {
