@@ -75,7 +75,7 @@ const about = {
         title: 'Introduction',
         description: (
             <div style={{ textAlign: 'justify' }}>
-                Hi, I’m Dhruv Shah, a CSE based student from Pune, India, currently studying 
+                Hi, I’m Dhruv Shah, a CSE student based from Pune, India, currently studying 
                 at Vishwakarma University. Over the past year, I’ve been starting my journey in Game Development and have also 
                 begun learning Swift and SwiftUI. I have hands-on experience in building web applications with technologies like Next.js, 
                 React.js, Node.js, and Hydrogen, specializing in creating seamless user experiences. Through various projects, 
