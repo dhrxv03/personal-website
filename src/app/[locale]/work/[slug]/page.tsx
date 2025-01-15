@@ -42,7 +42,6 @@ export function generateMetadata({ params: { slug, locale } }: WorkParams) {
 
 	let {
 		title,
-		publishedAt: publishedTime,
 		summary: description,
 		images,
 		image,
@@ -61,7 +60,6 @@ export function generateMetadata({ params: { slug, locale } }: WorkParams) {
 			title,
 			description,
 			type: 'article',
-			publishedTime,
 			url: `https://${baseURL}/${locale}/work/${post.slug}`,
 			images: [
 				{
@@ -106,8 +104,6 @@ export default function Project({ params }: WorkParams) {
 						'@context': 'https://schema.org',
 						'@type': 'BlogPosting',
 						headline: post.metadata.title,
-						datePublished: post.metadata.publishedAt,
-						dateModified: post.metadata.publishedAt,
 						description: post.metadata.summary,
 						image: post.metadata.image
 							? `https://${baseURL}${post.metadata.image}`
@@ -158,7 +154,6 @@ export default function Project({ params }: WorkParams) {
 					<Text
 						variant="body-default-s"
 						onBackground="neutral-weak">
-						{formatDate(post.metadata.publishedAt)}
 					</Text>
 				</Flex>
 				<CustomMDX source={post.content} />
