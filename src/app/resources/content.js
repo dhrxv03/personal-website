@@ -73,7 +73,7 @@ const about = {
     intro: {
         display: true,
         title: 'Introduction',
-        description: (
+        description: [
             <div style={{ textAlign: 'justify' }}>
                 Hi, I’m Dhruv Shah, a CSE student based from Pune, India, currently studying 
                 at Vishwakarma University. Over the past year, I’ve been starting my journey in Game Development and have also 
@@ -82,7 +82,7 @@ const about = {
                 I’ve honed my skills in both frontend and backend development, 
                 and I’m passionate about continuous learning and innovation.
             </div>
-        )
+        ]
     },   
     work: {
         display: true, // set to false to hide this section
