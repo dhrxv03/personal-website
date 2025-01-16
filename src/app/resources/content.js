@@ -52,7 +52,8 @@ const home = {
     label: 'Home',
     title: `${person.name}'s Portfolio`,
     headline: <>Design engineer and builder</>,
-    subline: <>I'm Dhruv Shah</>
+    subline: <>I'm Dhruv Shah</>,
+    description: 'Welcome to my portfolio website where I showcase my work and projects.' // Add this line
 }
 
 const about = {
