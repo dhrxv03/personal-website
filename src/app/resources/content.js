@@ -44,7 +44,7 @@ const social = [
     {
         name: 'CV',
         icon: 'download',
-        link: 'mailto:dhruv0310@icloud.com',
+        link: '',
     },
 ]
 
