@@ -44,7 +44,7 @@ const social = [
     {
         name: 'CV',
         icon: 'download',
-        link: '',
+        link: 'https://github.com/dhrxv03/personal-website/blob/main/public/resume.pdf',
     },
 ]
 
