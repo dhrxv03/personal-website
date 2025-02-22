@@ -73,4 +73,8 @@ const mailchimp = {
     }
 }
 
-export { routes, protectedRoutes, effects, style, display, mailchimp, baseURL, i18n, i18nOptions };
+const analytics = {
+    vercel: true // Enable Vercel Analytics
+};
+
+export { routes, protectedRoutes, effects, style, display, mailchimp, baseURL, i18n, i18nOptions, analytics };
