@@ -90,6 +90,20 @@ const about = {
         title: 'Work Experience',
         experiences: [
             {
+                company: 'AssetCues',
+                timeframe: 'Feb 2025 - Present',
+                role: 'Intern',
+                achievements: [
+                    <>Creating new UI for AssetCues websites which helps with SEO.</>,
+                    <>Enriching UX of AssetCues Website.</>,
+                    <>Working with SEO and Design team to enrich the website.</>,
+                    <>Managed frontend designing using WordPress while collaborating with others to ensure the final design aligned with comapany's vision.</>
+                ],
+                images: [ // optional: leave the array empty if you don't want to display images
+                    
+                ]
+            },
+            {
                 company: 'OLKAP',
                 timeframe: 'Oct 2024 - Present',
                 role: 'Contract Developer',
